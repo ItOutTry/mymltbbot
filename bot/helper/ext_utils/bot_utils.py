@@ -138,7 +138,7 @@ def get_readable_message():
                 msg += f" | <b>Time: </b>{download.seeding_time()}"
             else:
                 msg += f"\n<b>Size: </b>{download.size()}"
-            msg += f"\n<code>/{BotCommands.CancelMirror} {download.gid()}</code>\n\n"
+            msg += f"\n<code>/{BotCommands.CancelMirror} {download.gid()}</code>\n───────────\n"
             msg += "\n\n"
             if index == STATUS_LIMIT:
                 break
